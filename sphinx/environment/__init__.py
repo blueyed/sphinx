@@ -240,7 +240,7 @@ class BuildEnvironment(object):
         # initialize config
         self._update_config(app.config)
 
-        # initialie settings
+        # initialize settings
         self._update_settings(app.config)
 
     def _update_config(self, config):
